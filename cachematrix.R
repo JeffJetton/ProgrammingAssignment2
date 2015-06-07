@@ -5,7 +5,7 @@
 # a potentially cached inverse of that matrix
 makeCacheMatrix <- function(current.matrix = matrix()) {
 	
-	# Start with an emply cache
+    # Start with an empty cache
     cached.inverse <- NULL
     
     set <- function(new.matrix) {
@@ -58,6 +58,8 @@ cacheSolve <- function(x) {
         message("getting cached data")
     }
 
-	# Return the inverse
-	inv
+    # Return the inverse
+    inv
 }
+
+
